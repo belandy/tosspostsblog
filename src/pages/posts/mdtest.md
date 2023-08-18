@@ -79,9 +79,13 @@ aaaaa
 
 <img src="https://docs.astro.build/assets/logomark-dark.png" width="125" alt="Astro">
 
+画像(ローカル)
+
+![Astro](../../../dist/favicon.svg)
+
 gif(ローカル)
 
-![Astro](/src/assets/create-astro.gif)
+![Astro](../../../public/create-astro.gif)
 
 youtube(埋め込み)
 
