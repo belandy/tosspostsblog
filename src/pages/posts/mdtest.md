@@ -7,7 +7,7 @@ author: 'Belandy'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'Astroのロゴ。'
-tags: ["astro", "ブログ機能テスト"]
+tags: ["astro", "ブログ"]
 ---
 # [見出し]
 ***
@@ -81,11 +81,11 @@ aaaaa
 
 画像(ローカル)
 
-![Astro](../../../dist/favicon.svg)
+![Astro](../../assets/firstTossPosts.jpg)
 
 gif(ローカル)
 
-![Astro](../../../public/create-astro.gif)
+![Astro](../../assets/create-astro.gif)
 
 youtube(埋め込み)
 
