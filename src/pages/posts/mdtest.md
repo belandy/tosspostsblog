@@ -90,3 +90,12 @@ gif(ローカル)
 youtube(埋め込み)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l5aZJBLAu1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# [コード]
+
+``` Rust
+fn main() {
+  let num = 1;
+  println!("{num}"); // 1
+}
+```
