@@ -85,7 +85,7 @@ aaaaa
 
 gif(ローカル)
 
-![Astro](../../assets/create-astro.gif)
+(デフォルトでは未対応, Imageプラグインならイケる)
 
 youtube(埋め込み)
 
