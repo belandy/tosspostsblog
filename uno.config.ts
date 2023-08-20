@@ -15,13 +15,13 @@ export default defineConfig({
       fonts: {
         // these will extend the default theme
         sans: 'Noto Sans Japanese',
-        mono: ['Fira Code', 'Fira Mono:400,700'],
         // custom ones
         raleway: [{
           name: 'Raleway',
           weights: ['800'],
         }],
         blinker: 'Blinker:300',
+        main: 'Noto Sans JP',
       },
     })
   ],
