@@ -1,7 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import BlogPosts from '../components/BlogPosts.astro';
+import HeadLine from '../components/HeadLine.astro';
+const allPosts = await getCollection("blog");
 const pageTitle = "TossPosts";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>私の素晴らしいブログのサブタイトル</h2>
+  <HeadLine title="投稿記事一覧" />
+  <BlogPosts allPosts={allPosts} />
 </BaseLayout>
