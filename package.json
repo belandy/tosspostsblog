@@ -10,15 +10,23 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.0.3",
     "@astrojs/preact": "^2.2.2",
     "@astrojs/rss": "^2.4.4",
-    "astro": "^2.10.12",
+    "astro": "^3.0.5",
     "preact": "^10.17.1"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.54",
+    "@unocss/preset-icons": "^0.55.7",
+    "@unocss/preset-typography": "^0.55.7",
     "@unocss/reset": "^0.55.2",
     "daisyui": "^3.5.1",
-    "unocss": "^0.55.2",
+    "unocss": "^0.55.7",
     "unocss-preset-daisy": "^6.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/belandy/tosspostsblog",
+  "author": "Belandy <belandy202@gmail.com>",
+  "license": "MIT"
 }
