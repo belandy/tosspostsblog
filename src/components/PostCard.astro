@@ -1,0 +1,32 @@
+---
+import { Image } from "astro:assets";
+import Badge from "./Badge.astro";
+const { url, pubDate, upDate, imgSrc, imgAlt, title, description, tags } = Astro.props;
+---
+
+<div class="card w-auto bg-base-100 shadow-xl mx-4 mb-6 ">
+  <figure class="border"><a href={url}><Image src={imgSrc} alt={imgAlt} width={500} height={500}/></a></figure>
+  <div class="card-body p-4">
+    <div class="">
+      <div class="badge badge-outline mr-1">
+        <icon class="i-mdi-airplane"/>
+        {'作成:' + pubDate.toLocaleDateString('ja')}
+      </div>
+      <div class="badge badge-outline">
+        <icon class="i-mdi-update"/>
+        {'更新:' + upDate.toLocaleDateString('ja')}
+      </div>
+    </div>
+    <a href={url}>
+      <h2 class="card-title">
+        {title}
+      </h2>
+    </a>
+    <p>{description}</p>
+    <div class="card-actions justify-end">
+      {tags.map((tag: any) => (
+        <a href={`/tags/${tag}`}><Badge name={tag} /></a>
+      ))}
+    </div>
+  </div>
+</div>
