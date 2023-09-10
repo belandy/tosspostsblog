@@ -1,7 +1,9 @@
 import {
   defineConfig,
+  presetTypography,
   presetUno,
   presetWebFonts,
+  presetIcons,
   transformerDirectives,
 } from 'unocss'
 import {presetDaisy} from 'unocss-preset-daisy'
@@ -10,6 +12,23 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetDaisy(),
+    presetIcons(),
+    presetTypography({
+      selectorName: 'markdown', // now use like `markdown markdown-gray`, `not-markdown`
+      // cssExtend is an object with CSS selector as key and
+      // CSS declaration block as value like writing normal CSS.
+      cssExtend: {
+        'code': {
+          color: '#8b5cf6',
+        },
+        'a:hover': {
+          color: '#f43f5e',
+        },
+        'a:visited': {
+          color: '#14b8a6',
+        },
+      },
+    }),
     presetWebFonts({
       provider: 'google', // default provider
       fonts: {
@@ -34,5 +53,4 @@ export default defineConfig({
   rules: [
     ['m-1', { margin: '1px' }]
   ],
-
 })
