@@ -5,7 +5,7 @@ upDate: 2023-09-10
 description: 'マークダウン(またはmdx)の記法が正常に表示されるかどうかのテスト'
 author: 'Belandy'
 image:
-    url: 'https://i.imgur.com/46mkKyB.jpg'
+    url: 'src/assets/kingyo.webp'
     alt: 'Astroのロゴ。'
 tags: ["astro", "ブログ"]
 ---
