@@ -5,7 +5,7 @@ upDate: 2023-09-10
 description: 'やりたいことリスト'
 author: 'Belandy'
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
+    url: "../../assets/firstTossPosts.jpg"
     alt: 'Astroのロゴ。'
 tags: ["astro", "ブログ"]
 ---
