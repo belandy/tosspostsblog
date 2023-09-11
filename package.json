@@ -13,8 +13,7 @@
     "@astrojs/mdx": "^1.0.3",
     "@astrojs/preact": "^2.2.2",
     "@astrojs/rss": "^2.4.4",
-    "astro": "^3.0.5",
-    "preact": "^10.17.1"
+    "astro": "^3.0.5"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.54",
