@@ -4,6 +4,7 @@ import BlogPosts from '../components/BlogPosts.astro';
 import HeadLine from '../components/HeadLine.astro';
 import { getCollection } from 'astro:content';
 const allPosts = await getCollection("blog");
+allPosts.sort((a, b) => new Date(b.data.upDate).getTime() - new Date(a.data.upDate).getTime());
 const pageTitle = "ブログ";
 ---
 <BaseLayout pageTitle={pageTitle}>
