@@ -7,7 +7,7 @@ author: 'Belandy'
 image:
     url: "../../assets/mov2.jpg"
     alt: '最悪なサムネイル画像'
-tags: ["動画"]
+tags: ["動画", "制作作品"]
 ---
 
 ## 概要

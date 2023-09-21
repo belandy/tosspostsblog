@@ -7,7 +7,7 @@ author: 'Belandy'
 image:
     url: "../../assets/botumov1.jpg"
     alt: 'Fight in Tight Spacesのタイトル画面に情けないテロップがついている'
-tags: ["動画"]
+tags: ["動画", "挫折"]
 ---
 
 ## 概要

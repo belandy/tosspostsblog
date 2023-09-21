@@ -7,7 +7,7 @@ author: 'Belandy'
 image:
     url: "../../assets/mov1.jpg"
     alt: 'コビトカバ'
-tags: ["動画"]
+tags: ["動画", "制作作品"]
 ---
 
 
