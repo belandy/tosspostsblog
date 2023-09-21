@@ -11,7 +11,11 @@ tags: ["動画"]
 ---
 
 ## 概要
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9DYk8WPkopI?si=sdBnNBZ9OoTFh7JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9DYk8WPkopI?si=sdBnNBZ9OoTFh7JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
+</div>
+
 
 - 作品: No.2
 - 映像作品: No.2
